@@ -15,15 +15,15 @@ public class product {
     private List<String> images;
     private product(Builder b){
         if(b.getPrice()>0)this.price=b.getPrice();
-        this.name = b.name;
-        this.desc = b.desc;
-        this.price = b.price;
-        this.brand = b.brand;
-        this.category = b.category;
-        this.discount = b.discount;
-        this.createdAt = b.createdAt;
-        this.updatedAt = b.updatedAt;
-        this.images = b.images;
+        this.name = b.getName();
+        this.desc = b.getDesc();
+        this.price = b.getPrice();
+        this.brand = b.getBrand();
+        this.category = b.getCategory();
+        this.discount = b.getDiscount();
+        this.createdAt = b.getCreatedAt();
+        this.updatedAt = b.getUpdatedAt();
+        this.images = b.getImages();
     }
 
     public static Builder getBuilder(){
@@ -64,6 +64,8 @@ public class product {
         public String getCreatedAt() { return this.createdAt; }
 
         public String getUpdatedAt() { return this.updatedAt; }
+
+        public String getCategory(){return this.category; }
 
         public List<String> getImages() { return this.images; }
 
@@ -106,6 +108,10 @@ public class product {
         public Builder setUpdatedAt(String date){
             this.updatedAt=date;
             return this;
+        }
+
+        public int getDiscount() {
+            return this.discount;
         }
 
         // .....
