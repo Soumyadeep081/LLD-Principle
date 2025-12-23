@@ -1,6 +1,6 @@
 package Interface_Segregation_Principle.Example2.BetterCode;
 
-public
+
 public class EducationLoanAccount implements ILoan, IPartialWithdraw{
     @Override
     public void withdraw() {

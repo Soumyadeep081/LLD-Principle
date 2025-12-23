@@ -1,0 +1,2 @@
+1. Validation of properties before object creation can be done.
+2. It resolves the problem of bloated constructors.

@@ -1,0 +1,7 @@
+Object of another class which has all the same attributes as product class.
+
+-> We make a helper class builder and write all the necessary properties to it and also implemented getter setters.
+-> The issues with setters does not occur here because it's only a helper class.
+
+
+This is the Simplest form of design pattern called as BUILDER DESIGN pattern.

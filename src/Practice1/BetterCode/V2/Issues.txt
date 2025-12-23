@@ -1,0 +1,4 @@
+1. What if hashmap do not have a property as a key.
+->If there is a mandatory property and you do not pass it (because you have option ).
+2. What if there's a spelling mistake in a property in the hashmap.
+ex: "price" -> "Price"

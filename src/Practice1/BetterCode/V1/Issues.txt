@@ -1,0 +1,5 @@
+1. Validation of properties before object creation is problematic.
+->Validation occurs after object creation.
+
+2. It does not work with immutable objects.
+-> For immutable objects the concept of setter functions do not exist but without setters we cannot set values.

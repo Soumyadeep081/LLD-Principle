@@ -1,0 +1,7 @@
+1. Since here we are passing builder object to product constructor.
+-> So someone can pass null in the product(null) constructor.(We create product object without
+creating builder object, and it causes issue).(Our code depends on user behaviour).
+
+2. To create a product the client need to know about the builder class which is not good.Why the client
+should know about the builder.
+-> (Before creating product the client creates a builder first)

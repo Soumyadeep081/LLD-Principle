@@ -1,0 +1,1 @@
+Instead of using constructor overloading, we use getter and setter functions.

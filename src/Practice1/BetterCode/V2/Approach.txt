@@ -1,0 +1,1 @@
+We use a data structure (HashMap) to store all the arguments which are passed in the constructor in key value pairs.

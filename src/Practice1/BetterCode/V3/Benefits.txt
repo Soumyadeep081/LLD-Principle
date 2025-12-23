@@ -1,0 +1,7 @@
+1. Validation of properties can be done before object creation because builder
+class is helper class, and we validate properties of product class only.
+
+2. Issue of bloated constructor is solved.
+
+3. It also resolves the issues with hashmaps.
+-> typo can never happen.
