@@ -15,7 +15,6 @@ public class Product {
     private List<String> images;
 
     Product(){
-
     }
 
     public void setName(String name){
